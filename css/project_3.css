@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    overflow: hidden;
+    background-color: #272525;
+}
+h1{
+    color: #8d60de;
+    text-align: center;
+    transition: 1s;
+}
+h1:hover{
+    text-shadow: 0px 0px 10px #ab8de0;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    -moz-perspective: 500px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+}

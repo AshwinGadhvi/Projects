@@ -1,0 +1,309 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navigation css start */
+body{
+    background-color:#212121;
+    overflow-x: hidden;
+}
+.navigation{
+    display: flex;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: inline-block;
+}
+.logo img:hover{
+    cursor: pointer;;
+}
+.logo i{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.logo a{
+    text-decoration: no;
+}
+.logo span{
+    color: gold;
+    font-size: 13px;
+}
+.logo a:hover{
+    border-bottom: 1px solid white;
+}
+.logo img{
+    margin-bottom: -7px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    width: 38%;
+    height: 35px;
+    box-shadow: 1px 1px 2px black;
+    margin-left: 10px;
+}
+.insearch{
+    width: 90%;
+}
+.insearch input[type=search]
+{
+    height:35px;
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 2px 0px 0px 2px;
+    border: none;
+}
+.search_btn{
+    width: 10%;
+    height: 35px;
+    background-color:#fff;
+    border: none;
+    border-radius: 0px 2px 2px 0px;
+}
+.search_btn button{
+    width: 100%;
+    height: 34px;
+    background-color: #fff;
+    border-left: none;
+    border-bottom: none;
+    border: none;
+    border-radius: 0px 2px 2px 0px;
+}
+.search_btn button:hover{
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    position: relative;
+    width: 7.5%;
+    height: 30px;
+    align-items: center;
+    margin-left: 50px;
+    border-radius: 2px;
+    box-shadow: 1px  black;
+}
+
+.login input[type=submit]
+{
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 15px;
+    background-color: #fff;
+    color: #2874f0;
+    padding: 0px;
+    border-radius: 3px;
+}
+.login input:hover{
+    cursor: pointer;
+}
+.b_seller{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.b_seller a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.more{
+    margin-left: 40px;
+    background-color: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.more select{
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.more select:hover{
+    cursor: pointer;
+}
+.cart{
+    display: flex;
+    margin-left: 30px;
+    width: 5%;
+    font-size: 15px;
+    align-items: center;
+    height: 35px;
+    padding-left:10px ;
+    color: white;
+    font-weight: bold;
+}
+.cart span font{
+    padding-left: 10px;
+}
+.cart span a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation css end */
+
+/* css of carousel start */
+.direct_product{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 2px lightgrey;
+}
+.margin-right{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.dp1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    width: fit-content;
+    height: fit-content;
+}
+.dp2{
+    display: flex;
+}
+.dp a img{
+    justify-content: center;
+}
+.dp2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+.dp2 select{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dp1:hover a{
+    color: #2874f0;
+}
+
+.dp2:hover a{
+    color: #2874f0;
+}
+
+
+center:hover select{
+    color: #2874f0;
+}
+
+.carousel{
+    border:1px solid white;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.c_img img{
+    position: absolute;
+    left: 5%;
+    top: 3%;
+    width: 90%;
+    height: 100%;
+}
+
+.product{
+    width: 98%;
+    position: absolute;
+    left: 1%;
+    margin-top: 1%;
+    height: 370px;
+    background-color: white;
+    box-shadow: 1px 3px 8px gray;
+}
+
+.product h3{
+    font-weight: bold;
+    margin: 25px 15px;
+}
+
+.products{
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+
+.items{
+    width: 14%;
+    height: 100%;
+    background-color: white;
+    margin: 0.5%;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 3px;
+}
+
+.p_img{
+    width: 100%;
+    height: 80%;
+}
+
+.p_img:hover{
+    transform: scale(1.1);
+    transition: all 0.5ms;
+    cursor: pointer;
+
+}
+
+#title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#price{
+    margin-top: -12px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about{
+    width: 100%;
+    height: 400px;
+    margin-top: 500px;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+}
+
+.item1,.item2,.item3,.item4{
+    width: 20%;
+    height: 80%;
+    background-color: #2874f0;
+    margin: 1% 5%;
+    text-align: center;
+}
+
