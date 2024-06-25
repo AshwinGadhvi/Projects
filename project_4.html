@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: red;
+        }
+        .v{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 200px;
+
+        }
+        #left{
+            height: 150px;
+            width: 30px;
+            background-color: white;
+            transform: rotate(-25deg);
+            margin: -45px;
+        }
+        
+        #right{
+            height: 150px;
+            width: 30px;
+            transform: rotate(25deg);
+            background-color: white;
+            margin: 100px;
+        }
+        .box{
+            width: 49px;
+            height: 20px;
+            margin-top: 130px;
+            margin-left: -181.5px;
+            background-color: white;
+        }
+        .red{
+            width: 200px;
+            height: 40px;
+            background-color: red;
+            z-index: 129;
+            margin-top: -108px;
+            margin-left: -114px;
+        }
+        .center{
+            height: 110px;
+            width: 30px;
+            background-color: white;
+            margin-top: 40px;
+            margin-left: -30px;
+        }
+        .ball{
+            width: 30px;
+            height: 30px;
+            border-radius: 30px;
+            background-color: yellow;
+            margin-top: 200px;
+            margin-left: -30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="v">
+        <div id="left"></div>
+        <div id="right"></div>
+        <div class="box"></div>
+        <div class="red"></div>
+        <div class="center"></div>
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
